@@ -245,3 +245,86 @@ ul a{
 .copyright{
     padding-top: 5px;
 }
+/* Your existing CSS code */
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    
+    .nav-logo, .nav-adress, .nav-search, .nav-signin, .nav-return, .nav-cart {
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav-search {
+        flex-direction: column;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .search-select, .search-input, .search-icon {
+        width: 100%;
+        border-radius: 4px;
+    }
+    
+    .search-select {
+        margin-bottom: 5px;
+    }
+    
+    .hero-section {
+        height: 300px;
+    }
+    
+    .hero-msg {
+        font-size: 0.75rem;
+    }
+    
+    .shop-sec {
+        flex-direction: column;
+    }
+    
+    .box {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .box-image {
+        height: 200px;
+    }
+    
+    .box-content p {
+        font-size: 0.75rem;
+    }
+    
+    footer {
+        margin-top: 20px;
+    }
+    
+    .foot-panel1, .foot-panel2, .foot-panel3, .foot-panel4 {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    ul {
+        margin-top: 10px;
+    }
+    
+    ul a {
+        font-size: 0.75rem;
+    }
+    
+    .logo {
+        height: 30px;
+        width: 60px;
+    }
+    
+    .copyright {
+        padding-top: 10px;
+    }
+}
